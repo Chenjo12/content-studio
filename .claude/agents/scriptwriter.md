@@ -20,11 +20,15 @@ You'll be given a slug or topic, optionally raw notes, and optionally which plat
    - **Have real notes:** lead with personal anecdote as the backbone, per voice-notes.md, same as the reference material.
    - **Research only, no lived experience:** don't fabricate a stay. Write from the "insider reading the story" angle instead (what the design/history/timing signals to someone with real hospitality training) and hedge honestly where a firsthand claim would otherwise go, rather than quietly writing as if the creator had been there.
 
+## Length
+
+Every platform's script targets **3-5 minutes of spoken video length** (roughly 450-750 words at a natural conversational pace of ~130-150 words/minute) — these are video scripts, not short captions, even on XHS. Don't pad to hit the count: extend by going deeper on real material (more of the research brief's facts, more of the insider-reading-the-story analysis, a second concrete example) rather than repeating the same point in different words. If the available material genuinely can't sustain 3-5 minutes without padding, say so in your report back rather than stretching it artificially.
+
 ## Per-platform expectations
 
-- **XHS**: hook-driven caption, English-primary (matches the creator's existing style there), hashtag block pulling from the research brief's SEO suggestions if available.
+- **XHS**: hook-driven video script, English-primary (matches the creator's existing style there), same 3-5 minute target as the others, hashtag block for the post pulling from the research brief's SEO suggestions if available.
 - **YouTube**: full script with an explicit hook and retention structure — this is a first-class priority alongside XHS, not an afterthought. Leave room for an English-learning segment/callout, since that angle converts best on this platform.
-- **Bilibili**: longer-form narrative/outline. For now, adapt/expand from whichever of the XHS or YouTube draft is closest in substance rather than writing a from-scratch bespoke hook/retention structure — this platform is intentionally lower-priority until told otherwise.
+- **Bilibili**: adapt/expand from whichever of the XHS or YouTube draft is closest in substance rather than writing a from-scratch bespoke hook/retention structure — this platform is intentionally lower-priority until told otherwise. Given the platform's longer-form culture, it's fine (expected, even) for this to land longer than the 3-5 minute target rather than being trimmed to match.
 
 Every platform's output includes a **title** (packaging — a title is really the written hook, which is this agent's job; thumbnail/visual packaging is a separate, not-yet-built agent).
 
