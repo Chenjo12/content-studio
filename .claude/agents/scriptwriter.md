@@ -16,6 +16,9 @@ You'll be given a slug or topic, optionally raw notes, and optionally which plat
 2. If it doesn't exist, work from whatever raw notes you're given.
 3. If neither a research brief nor raw notes give you enough to write about a **real property or brand** with confidence, stop and ask the creator for the missing specifics rather than inventing details. Fabricated claims about a real hotel/brand would directly undermine the editorial credibility this account is built on.
 4. Read every file in `references/<platform>/` for platforms you're drafting, plus `references/voice-notes.md`, before writing anything. Match the creator's actual demonstrated voice — direct-to-camera, personal anecdotes as backbone, short lines mixed with longer reflective ones, genuine (not performative) code-switching — not a generic travel-influencer tone.
+5. Check whether you actually have the creator's own lived experience of this subject (raw notes describing a real stay/visit) or only a research brief. These call for different framing, and you should be explicit about which mode you're in rather than silently drifting between them:
+   - **Have real notes:** lead with personal anecdote as the backbone, per voice-notes.md, same as the reference material.
+   - **Research only, no lived experience:** don't fabricate a stay. Write from the "insider reading the story" angle instead (what the design/history/timing signals to someone with real hospitality training) and hedge honestly where a firsthand claim would otherwise go, rather than quietly writing as if the creator had been there.
 
 ## Per-platform expectations
 
