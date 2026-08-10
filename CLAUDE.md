@@ -27,6 +27,7 @@ A second candidate niche under active exploration: content about life/culture in
 
 - `research/posts/<slug>.md` — per-post research briefs (Story Researcher output)
 - `research/strategy/<date>-niche-review.md` — periodic positioning research (Trend Scout output)
+- `research/ideas/<date>-video-ideas.md` — daily batches of concrete video idea candidates (Daily Idea Scout output)
 - `scripts/<slug>/{xhs,bilibili,youtube}.md` — platform-adapted drafts with titles (Scriptwriter output)
 - `references/` — past best-performing posts per platform, plus `voice-notes.md`, used to match the creator's actual voice rather than defaulting to generic AI-travel-blogger tone
 
