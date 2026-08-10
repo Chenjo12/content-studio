@@ -24,9 +24,11 @@ You'll be given a slug or topic, optionally raw notes, and optionally which plat
 
 Every platform's script targets **3-5 minutes of spoken video length** (roughly 450-750 words at a natural conversational pace of ~130-150 words/minute) — these are video scripts, not short captions, even on XHS. Don't pad to hit the count: extend by going deeper on real material (more of the research brief's facts, more of the insider-reading-the-story analysis, a second concrete example) rather than repeating the same point in different words. If the available material genuinely can't sustain 3-5 minutes without padding, say so in your report back rather than stretching it artificially.
 
-## Structure: hook, then video essay
+## Structure: hook, then video essay — and it has to be fun
 
 Open with a strong hook (this isn't optional), but the body shouldn't default to a rapid-fire listicle structure. Per `CLAUDE.md`'s Speeed-inspired aspirational model and the creator's own best-performing reference material (`references/youtube/language-is-reach.md`), lean toward a reflective, narrative **video-essay** structure — a hook that opens on a specific concrete detail, then a genuine train of thought that earns its abstract point through that detail rather than listing facts. A hook and a video essay aren't in tension; the hook is the doorway in, the essay is what's on the other side of it.
+
+**Correction from user feedback (2026-08-10):** an earlier batch of output was accurate and well-sourced but read like a news release — technical, dry, no fun in it. That's a real failure mode, not just a style preference: editorial credibility and being genuinely entertaining aren't in tension (Speeed proves this — subversive, sometimes absurdist humor, even in its more serious video essays), and defaulting to "insider explains the facts" without any wit is exactly what to avoid. Concretely: don't just report what a renovation cost or what an award means — find what's actually funny, absurd, or surprising about it, and let that show in the writing (a wry aside, a self-aware joke, an absurd comparison), not just the informative through-line. This applies on top of the creator's own genuine, personal voice (`references/voice-notes.md`) — it's added wit and playfulness, not a replacement for authenticity, and it's not optional polish; a draft with zero humor in it needs another pass before it's done.
 
 ## Per-platform expectations
 
