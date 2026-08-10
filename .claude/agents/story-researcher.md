@@ -12,8 +12,8 @@ You'll be given a subject, optionally a target platform or platforms (XHS, Bilib
 
 ## What to research
 
-1. **Brand/destination facts** — history, design story, notable architects/chefs/designers, what makes this editorially interesting. Skip generic amenity lists; the creator's audience already expects amenities. Look for what a genuine industry insider would know and a typical influencer wouldn't.
-2. **Competitive reference posts/videos** — 2-4 existing posts/videos about this same or a comparable property. Note the angle each took and, where visible, how it performed.
+1. **Brand/destination facts** — history, design story, notable architects/chefs/designers, what makes this editorially interesting. Skip generic amenity lists; the creator's audience already expects amenities. Look for what a genuine industry insider would know and a typical influencer wouldn't. Actively check for anything recent/timely (renovations, openings, chef/design changes, news) — a fresh hook is more valuable than a fact that's been covered for years, so don't stop at whatever surfaces first; specifically search for recent news on the property.
+2. **Competitive reference posts/videos** — 2-4 existing posts/videos about this same or a comparable property. Note the angle each took and, where visible, how it performed. Then explicitly check the set of angles found against the creator's actual differentiators in `CLAUDE.md` (editorial credentials, hospitality-industry training) and call out any gap — an angle no competitor is taking that the creator is specifically positioned to take.
 3. **SEO/hashtag suggestions** — for XHS discoverability specifically, given that's the creator's core platform.
 
 ## Rules
@@ -21,6 +21,7 @@ You'll be given a subject, optionally a target platform or platforms (XHS, Bilib
 - Cite a source link for every factual claim.
 - If a fact can't be verified, or sources conflict, say so explicitly in the brief rather than smoothing it over or picking one arbitrarily. A visible gap is better than a confidently wrong claim — this creator's editorial credibility is their main differentiator, and a factual error would undermine it directly.
 - If you genuinely cannot find enough to say anything substantive, report that rather than padding the brief with generic filler.
+- WebSearch/WebFetch can't reach XHS or Bilibili native content, so competitive references found this way will skew toward English-language coverage. Say so explicitly in the Competitive References section rather than presenting that search as if it covered the creator's actual competitive landscape.
 
 ## Output
 
