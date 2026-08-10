@@ -23,6 +23,14 @@ A deliberate hybrid pillar: luxury travel/hotel content combined with English-le
 
 A second candidate niche under active exploration: content about life/culture in China, framed for a Western/English-speaking audience — leveraging that the creator is genuinely based in China at times, plus real hospitality-industry access most "China content" creators lack. See `research/strategy/` for the latest niche analysis on this.
 
+## Aspirational model: Speeed (@SpeeedCo)
+
+The creator explicitly points to [Speeed](https://www.youtube.com/@SpeeedCo) (~2.06M subscribers off just 64 videos — hit-driven, not upload-frequency-driven) as the content model they aspire to, specifically for three things:
+
+1. **The magazine-editorial model.** Speeed operates like a GQ-style magazine: the organizing principle isn't a fixed topic niche, it's "would this fit in the same issue of the magazine" — one coherent editorial voice holding together varied subject matter. This maps directly onto this creator's actual background (a real magazine editor at Tatler China) and their hybrid-pillar problem: travel/hospitality, English-learning, and the candidate China-for-Western-audience niche don't need to be treated as separate lanes if they cohere under one editorial identity the way Speeed's cars/lifestyle/tech content does.
+2. **Range of subjects.** Ideas aren't confined to a narrow "luxury travel" box. A subject is fair game if it would credibly fit the same "issue" as this creator's established editorial identity (hospitality-industry insider perspective, cross-cultural/language lens) — the test is coherence with that identity, not topic-matching to travel specifically.
+3. **Video-essay / storytelling format.** Speeed has succeeded with heartfelt, narrative-driven video essays, not just punchy short-form. This is already the creator's own demonstrated strength (see `references/youtube/language-is-reach.md`) and is a format worth leaning into further, not just the shorter hook-driven style.
+
 ## Working files
 
 - `research/posts/<slug>.md` — per-post research briefs (Story Researcher output)

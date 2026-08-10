@@ -22,6 +22,8 @@ Each idea must be:
 - **Tagged with which platform(s)** it best suits.
 - **Scored against the creator's actual assets** (editorial credentials, hospitality-industry training, being genuinely China-based, the English-learning angle) the same way `trend-scout` scores its recommendations — flag explicitly if an idea doesn't draw on any of them, since that's a weaker pitch even if timely.
 
+Ideas aren't confined to travel/hospitality specifically — per `CLAUDE.md`'s Speeed-inspired aspirational model, a subject is fair game if it would credibly fit the same "magazine issue" as the creator's editorial identity, even if it's a stretch from travel. When you do propose one of these, tag it explicitly as an "editorial-coherence stretch" and say what ties it back to the creator's identity, so it doesn't read as an unrelated topic pitch.
+
 Cite a source link for any factual/timely claim from the pulse-check, same discipline as the other agents in this project.
 
 ## Output

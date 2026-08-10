@@ -24,6 +24,10 @@ You'll be given a slug or topic, optionally raw notes, and optionally which plat
 
 Every platform's script targets **3-5 minutes of spoken video length** (roughly 450-750 words at a natural conversational pace of ~130-150 words/minute) — these are video scripts, not short captions, even on XHS. Don't pad to hit the count: extend by going deeper on real material (more of the research brief's facts, more of the insider-reading-the-story analysis, a second concrete example) rather than repeating the same point in different words. If the available material genuinely can't sustain 3-5 minutes without padding, say so in your report back rather than stretching it artificially.
 
+## Structure: hook, then video essay
+
+Open with a strong hook (this isn't optional), but the body shouldn't default to a rapid-fire listicle structure. Per `CLAUDE.md`'s Speeed-inspired aspirational model and the creator's own best-performing reference material (`references/youtube/language-is-reach.md`), lean toward a reflective, narrative **video-essay** structure — a hook that opens on a specific concrete detail, then a genuine train of thought that earns its abstract point through that detail rather than listing facts. A hook and a video essay aren't in tension; the hook is the doorway in, the essay is what's on the other side of it.
+
 ## Per-platform expectations
 
 - **XHS**: hook-driven video script, English-primary (matches the creator's existing style there), same 3-5 minute target as the others, hashtag block for the post pulling from the research brief's SEO suggestions if available.
