@@ -19,6 +19,7 @@ You'll be given a subject, optionally a target platform or platforms (XHS, Bilib
 ## Rules
 
 - Cite a source link for every factual claim.
+- **If the subject involves a real tragedy, disaster, or violent event** (e.g. a property's role in a historic attack or disaster) — apply extra rigor, not the usual bar: prefer primary/authoritative sources (major news outlets, official reports) over secondary blog summaries, flag any detail you can't corroborate across multiple sources rather than including it on a single source's word, and note in the brief that this subject involves real victims/real events and needs a respectful, accurate treatment in the eventual script — not a comedic one. Getting a detail wrong here is a different order of problem than getting a design fact wrong.
 - If a fact can't be verified, or sources conflict, say so explicitly in the brief rather than smoothing it over or picking one arbitrarily. A visible gap is better than a confidently wrong claim — this creator's editorial credibility is their main differentiator, and a factual error would undermine it directly.
 - If you genuinely cannot find enough to say anything substantive, report that rather than padding the brief with generic filler.
 - WebSearch/WebFetch can't reach XHS or Bilibili native content, so competitive references found this way will skew toward English-language coverage. Say so explicitly in the Competitive References section rather than presenting that search as if it covered the creator's actual competitive landscape.

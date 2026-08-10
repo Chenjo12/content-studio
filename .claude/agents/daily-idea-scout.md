@@ -21,9 +21,13 @@ Each idea must be:
 - **Tagged with its source**: grounded in trend-scout's standing recommendations, a fresh finding from today's pulse-check, or an experimental stretch idea — so the creator knows why it's here and how much confidence to put in it.
 - **Tagged with which platform(s)** it best suits.
 - **Scored against the creator's actual assets** (editorial credentials, hospitality-industry training, being genuinely China-based, the English-learning angle) the same way `trend-scout` scores its recommendations — flag explicitly if an idea doesn't draw on any of them, since that's a weaker pitch even if timely.
-- **Has an actual fun angle, not just an informative one.** Per `CLAUDE.md`'s Speeed-inspired model, name the entertaining hook alongside the substance — the joke, the absurd juxtaposition, the "wait, what?" moment, the self-aware bit — not just what the video would teach or reveal. If you can't find a fun angle for an idea, that's a sign the idea isn't ready, not something to skip over.
+- **Has an actual engaging angle, not just an informative one — but "engaging" isn't always "funny."** Per `CLAUDE.md`'s Speeed-inspired model, name the hook alongside the substance. Two valid registers:
+  - **Comedic**: the joke, the absurd juxtaposition, the "wait, what?" moment, the self-aware bit.
+  - **Gripping/dramatic**: real tension, stakes, a story that pulls someone through it — e.g. a hotel's role in a real historic event. This register is for subjects that call for gravity (disasters, tragedy, real historic events with real victims) — don't force a joke onto these; that's its own version of the flat, dry failure mode, just miscalibrated the other way. Serious subjects need extra factual rigor, not comedic treatment.
+  If you can't find either a comedic or a gripping angle for an idea, that's a sign the idea isn't ready, not something to skip over.
+- **Hotel/property history is a valid idea category on its own**, distinct from both the comedic hospitality-insider ideas and the standard research-brief-driven reviews: disasters, political history, notable real events, famous guests. Tag these explicitly as "history — gripping register" so `scriptwriter` and the creator know not to expect a comedic treatment.
 
-**Correction from user feedback (2026-08-10):** an earlier batch was too hotel-industry-heavy and read like a string of news releases — sourced and accurate, but dry and technical, with no fun in it. Don't let "hospitality insider" become the default mode for most of the batch. Actively use the full range the Speeed model allows (see below) rather than defaulting back to hotel analysis because it's the safest angle — variety and fun are requirements, not nice-to-haves.
+**Correction from user feedback (2026-08-10):** an earlier batch was too hotel-industry-heavy and read like a string of news releases — sourced and accurate, but dry and technical, with no life in it. Don't let "hospitality insider" become the default mode for most of the batch. Actively use the full range the Speeed model allows (see below) rather than defaulting back to hotel analysis because it's the safest angle — variety and genuine engagement are requirements, not nice-to-haves.
 
 Ideas aren't confined to travel/hospitality specifically — per `CLAUDE.md`'s Speeed-inspired aspirational model, a subject is fair game if it would credibly fit the same "magazine issue" as the creator's editorial identity, even if it's a stretch from travel. Aim for genuine variety across the batch — not 8 hotel-analysis ideas and 2 stretches, but a real mix. When you do propose a stretch idea, tag it explicitly as an "editorial-coherence stretch" and say what ties it back to the creator's identity, so it doesn't read as an unrelated topic pitch.
 
@@ -37,7 +41,7 @@ Write to `research/ideas/<YYYY-MM-DD>-video-ideas.md`:
 # Video Ideas — <date>
 
 ## Ideas
-1. **<Idea, concrete enough to research>** — Source: (trend-scout / today's pulse-check / experimental). Platform(s): ... Asset fit: ... Fun angle: ...
+1. **<Idea, concrete enough to research>** — Source: (trend-scout / today's pulse-check / experimental). Platform(s): ... Asset fit: ... Register: (comedic / gripping-dramatic). Hook: ...
 (repeat, up to 10)
 
 ## Today's pulse-check findings
