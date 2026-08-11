@@ -1,6 +1,15 @@
-# Inside the Hotel Minibar's Rise, Fall, and Weird Afterlife — A Business History Nobody Asked For
+# 我拆解了酒店迷你吧的商业逻辑 (I Broke Down the Business Logic of the Hotel Minibar)
 
 *Adapted and expanded from the YouTube script — Bilibili is intentionally lower-priority for now, so this follows that draft's structure rather than a from-scratch treatment. Longer-form outline below suits Bilibili's knowledge-content culture.*
+
+## Title options
+1. 我拆解了酒店迷你吧的商业逻辑 (I broke down the business logic of the hotel minibar)
+2. 酒店迷你吧的兴衰史:从发明到几近消失 (The rise and fall of the hotel minibar: from invention to near-disappearance)
+3. 一部没人想看但你会看完的酒店商业史 (A hotel business history nobody asked for but you'll finish anyway)
+4. 迷你吧传感器的技术内幕:越智能,争议越多 (The technical inside story of minibar sensors: the smarter it got, the more disputes it caused)
+5. 5000欧元一瓶 vs 完全免费:迷你吧的两种极端 (€3,500 a bottle vs. completely free: the minibar's two extremes)
+
+*Heading above uses Title 1 — Bilibili's audience skews toward analytical/knowledge-content framing, and "business logic" promises the structural breakdown (pricing, sensors, the fix that backfired) this platform's viewers come for, more than a pure history or price-shock framing would.*
 
 ## Hook
 In 2004, the Marriott Marquis in Times Square removed all 1,946 minibars in the building, in one move. That's actually the right place to start this story — not at the invention, but at the moment someone decided it wasn't worth it anymore.
