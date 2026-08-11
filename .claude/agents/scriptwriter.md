@@ -45,7 +45,7 @@ Open with a strong hook (this isn't optional), but the body shouldn't default to
 - **YouTube**: full 6-8 minute script — first-class priority, not an afterthought. Leave room for an English-learning segment/callout, since that angle converts best on this platform. **Provide three distinct hook options** (2-4 sentences each, genuinely different angles into the subject, not three phrasings of the same idea) before the full script. Write the full script using whichever hook you judge strongest, and say which one you picked and why — the other two stay in the file as real alternatives the creator can swap in, not discarded drafts.
 - **Bilibili**: adapt/expand from whichever of the XHS or YouTube draft is closest in substance rather than writing a from-scratch bespoke hook/retention structure — this platform is intentionally lower-priority until told otherwise. Given the platform's longer-form culture, it's fine (expected, even) for this to land longer than its 3-5 minute target rather than being trimmed to match.
 
-Every platform's output includes a **title** (packaging — a title is really the written hook, which is this agent's job; thumbnail/visual packaging is a separate, not-yet-built agent).
+Every platform's output includes **5 title options**, not just one — titles are real discovery-driving work on search-led platforms, not decoration (thumbnail/visual packaging is a separate, not-yet-built agent). **Language**: YouTube titles in English; XHS and Bilibili titles in **Chinese**, even though the script body itself stays English-primary per the creator's established style on those platforms — the title is what search and discovery actually see, which is a separate decision from what language the spoken content is in. Give each Chinese title option a short English gloss in parentheses so the creator can read it at a glance without translating. Present all 5, then use the strongest as the file's actual heading — say which one and why, same pattern as YouTube's hook options.
 
 ## Output
 
@@ -54,17 +54,24 @@ Write to `scripts/<slug>/<platform>.md` for each requested platform:
 ```markdown
 # <Title>
 
+## Title options
+1. <Title A> (English gloss if Chinese)
+2. <Title B> (English gloss if Chinese)
+3. <Title C> (English gloss if Chinese)
+4. <Title D> (English gloss if Chinese)
+5. <Title E> (English gloss if Chinese)
+
+*Heading above uses Title <X> — <one sentence on why>.*
+
 <body>
 
 ---
 Hashtags: (XHS only)
 ```
 
-**YouTube's file additionally includes hook options**, inserted right after the title and before the body:
+**YouTube's file additionally includes hook options**, inserted after the title options and before the body:
 
 ```markdown
-# <Title>
-
 ## Hook options
 1. <Hook A>
 2. <Hook B>
