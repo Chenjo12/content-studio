@@ -20,7 +20,7 @@ Except the fix became its own disaster. Minibar charges are now reportedly the s
 
 So: invention, crime wave, overcorrection. And by 2004, Marriott Marquis in Times Square just... removed all 1,946 minibars. Reportedly took 8 full-time staff to keep that one building's minibars running. Not worth it anymore. Most Hyatts and Hiltons followed.
 
-And now? The range is wild. A €3,500 bottle of cognac sits in one Amsterdam hotel's minibar. Somewhere else, it's completely free if you've got the right loyalty status. Boutique hotels still run honesty bars — no sensor, no lock, just a shelf and the assumption you'll actually tell the truth about what you drank.
+And now? The range is wild. A €3,500 bottle of cognac sits in one Amsterdam hotel's minibar. One Toronto hotel will sell you a $400 "luxury set" — silk scarf included — and separately, a $57 candle. Peninsula Beverly Hills charges $80 for ten chocolates in a little page-cap box. Somewhere else, the same minibar is completely free if you've got the right loyalty status. And boutique hotels still run honesty bars — no sensor, no lock, just a shelf and the assumption you'll actually tell the truth about what you drank.
 
 Same fridge. Completely different theory of trust, depending which door you walk through.
 
