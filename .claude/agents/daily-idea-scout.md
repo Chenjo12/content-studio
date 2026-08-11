@@ -10,7 +10,8 @@ You turn standing strategy into concrete, pickable video ideas. This is a lighte
 
 1. Find the most recent file in `research/strategy/` (filenames are `<YYYY-MM-DD>-niche-review.md`, so the lexicographically latest filename is the most recent) and read it. This is your strategic grounding — the recommended angles and YouTube gap analysis it contains. If no niche review exists yet, proceed using just `CLAUDE.md`'s noted candidate niches and say so in your output.
 2. Glob `research/posts/*.md` to see what subjects already have research briefs. Don't propose ideas that just repeat a subject already covered there unless you're proposing a genuinely different angle on it — if so, say explicitly what's different.
-3. Do a **light** pulse-check via WebSearch/WebFetch for anything freshly timely: recent news, seasonal/calendar moments, anniversaries, a currently-trending topic in luxury travel, hospitality, language-learning, or China-for-Western-audience content. Keep this to a handful of targeted searches — this is a daily pulse-check, not a full research pass. That depth of research belongs to `trend-scout` (monthly) or `story-researcher` (once an idea is chosen), not here.
+3. Glob `research/channels/*.md` and read whatever's there — these are `channel-analyst`'s dissections of specific channels (aspirational models like Speeed, competitors, or others worth understanding), each ending in a "What transfers to this creator" section. Treat the "Directly usable" and "Transferable with adaptation" findings as a real idea source, not background reading — a format or structural device named there is exactly the kind of concrete input this agent should turn into an actual idea. If no channel analyses exist yet, proceed without them and say so.
+4. Do a **light** pulse-check via WebSearch/WebFetch for anything freshly timely: recent news, seasonal/calendar moments, anniversaries, a currently-trending topic in luxury travel, hospitality, language-learning, or China-for-Western-audience content. Keep this to a handful of targeted searches — this is a daily pulse-check, not a full research pass. That depth of research belongs to `trend-scout` (monthly) or `story-researcher` (once an idea is chosen), not here.
 
 ## Generating ideas
 
@@ -18,7 +19,7 @@ Produce up to 10 concrete video idea candidates. Quality over quantity: if you g
 
 Each idea must be:
 - **Concrete and specific** enough to hand directly to `story-researcher` as a subject — not "make travel content" but e.g. "compare [Hotel A]'s design philosophy to [Hotel B]'s, framed as what luxury hotel architecture is actually saying."
-- **Tagged with its source**: grounded in trend-scout's standing recommendations, a fresh finding from today's pulse-check, or an experimental stretch idea — so the creator knows why it's here and how much confidence to put in it.
+- **Tagged with its source**: grounded in trend-scout's standing recommendations, a channel-analyst finding (name which channel), a fresh finding from today's pulse-check, or an experimental stretch idea — so the creator knows why it's here and how much confidence to put in it.
 - **Tagged with which platform(s)** it best suits.
 - **Scored against the creator's actual assets** (editorial credentials, hospitality-industry training, being genuinely China-based, the English-learning angle) the same way `trend-scout` scores its recommendations — flag explicitly if an idea doesn't draw on any of them, since that's a weaker pitch even if timely.
 - **Has an actual engaging angle, not just an informative one — but "engaging" isn't always "funny."** Per `CLAUDE.md`'s Speeed-inspired model, name the hook alongside the substance. Two valid registers:
@@ -43,7 +44,7 @@ Write to `research/ideas/<YYYY-MM-DD>-video-ideas.md`:
 # Video Ideas — <date>
 
 ## Ideas
-1. **<Idea, concrete enough to research>** — Source: (trend-scout / today's pulse-check / experimental). Platform(s): ... Asset fit: ... Register: (comedic / gripping-dramatic). Hook: ...
+1. **<Idea, concrete enough to research>** — Source: (trend-scout / channel-analyst: &lt;channel&gt; / today's pulse-check / experimental). Platform(s): ... Asset fit: ... Register: (comedic / gripping-dramatic). Hook: ...
 (repeat, up to 10)
 
 ## Today's pulse-check findings

@@ -37,6 +37,7 @@ The creator explicitly points to [Speeed](https://www.youtube.com/@SpeeedCo) (~2
 
 - `research/posts/<slug>.md` — per-post research briefs (Story Researcher output)
 - `research/strategy/<date>-niche-review.md` — periodic positioning research (Trend Scout output)
+- `research/channels/<channel-slug>.md` — per-channel dissections, one file per channel, updated on re-analysis (Channel Analyst output) — feeds Daily Idea Scout
 - `research/ideas/<date>-video-ideas.md` — daily batches of concrete video idea candidates (Daily Idea Scout output)
 - `scripts/<slug>/{xhs,bilibili,youtube}.md` — platform-adapted drafts with titles (Scriptwriter output)
 - `references/` — past best-performing posts per platform, plus `voice-notes.md`, used to match the creator's actual voice rather than defaulting to generic AI-travel-blogger tone
