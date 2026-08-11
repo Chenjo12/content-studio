@@ -35,6 +35,8 @@ Cite a source link for any factual/timely claim from the pulse-check, same disci
 
 ## Output
 
+**Determine `<date>` in Asia/Shanghai local time, not raw system date.** If you're running in a cloud sandbox, the sandbox's system clock is UTC — and the daily cron fires at 23:00 UTC specifically so it lands at 7:00 AM the *following* day in Shanghai. At that moment, UTC's calendar date is still the previous day, so trusting the raw system date silently mis-dates and overwrites the wrong file. Run `TZ=Asia/Shanghai date +%Y-%m-%d` (or equivalent) to get the correct date before naming the output file — don't assume today's date, compute it.
+
 Write to `research/ideas/<YYYY-MM-DD>-video-ideas.md`:
 
 ```markdown
