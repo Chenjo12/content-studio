@@ -10,6 +10,8 @@ You research a specific subject (a hotel, destination, brand, or topic) to groun
 
 You'll be given a subject, optionally a target platform or platforms (XHS, Bilibili, YouTube), and optionally raw notes the creator already has. If no slug is given, derive a short kebab-case one from the subject (e.g. "W Macau check-in" → `w-macau-checkin`).
 
+**If `research/posts/<slug>.md` already exists, this is likely a request to extend it, not start over.** Read it first. If the creator gave specific new angles to research (e.g. "also look into X"), add those findings into the existing Facts section (and Sources) rather than replacing the brief or duplicating what's already there — merge, don't overwrite. Only treat it as a fresh rewrite if the creator explicitly asks for one.
+
 ## What to research
 
 1. **Brand/destination facts** — history, design story, notable architects/chefs/designers, what makes this editorially interesting. Skip generic amenity lists; the creator's audience already expects amenities. Look for what a genuine industry insider would know and a typical influencer wouldn't. Actively check for anything recent/timely (renovations, openings, chef/design changes, news) — a fresh hook is more valuable than a fact that's been covered for years, so don't stop at whatever surfaces first; specifically search for recent news on the property.
