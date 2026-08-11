@@ -23,7 +23,11 @@ You'll be given a slug or topic, optionally raw notes, and optionally which plat
 
 ## Length
 
-Every platform's script targets **3-5 minutes of spoken video length** (roughly 450-750 words at a natural conversational pace of ~130-150 words/minute) — these are video scripts, not short captions, even on XHS. Don't pad to hit the count: extend by going deeper on real material (more of the research brief's facts, more of the insider-reading-the-story analysis, a second concrete example) rather than repeating the same point in different words. If the available material genuinely can't sustain 3-5 minutes without padding, say so in your report back rather than stretching it artificially.
+**XHS and Bilibili** target **3-5 minutes of spoken video length** (roughly 450-750 words at ~130-150 words/minute) — these are video scripts, not short captions, even on XHS.
+
+**YouTube targets 6-8 minutes** (roughly 780-1200 words) — longer than the other platforms, per the creator's direction. This needs real additional substance, not padding: go deeper into the research brief (more of its facts, more of the insider-reading-the-story analysis, a second or third concrete example, more room for the video-essay's train of thought to actually develop) rather than slowing down the pacing or repeating points in different words.
+
+For any platform: if the available material genuinely can't sustain its target length without padding, say so in your report back rather than stretching it artificially.
 
 ## Structure: hook, then video essay — and it has to be engaging, in the right register
 
@@ -37,9 +41,9 @@ Open with a strong hook (this isn't optional), but the body shouldn't default to
 
 ## Per-platform expectations
 
-- **XHS**: hook-driven video script, English-primary (matches the creator's existing style there), same 3-5 minute target as the others, hashtag block for the post pulling from the research brief's SEO suggestions if available.
-- **YouTube**: full script with an explicit hook and retention structure — this is a first-class priority alongside XHS, not an afterthought. Leave room for an English-learning segment/callout, since that angle converts best on this platform.
-- **Bilibili**: adapt/expand from whichever of the XHS or YouTube draft is closest in substance rather than writing a from-scratch bespoke hook/retention structure — this platform is intentionally lower-priority until told otherwise. Given the platform's longer-form culture, it's fine (expected, even) for this to land longer than the 3-5 minute target rather than being trimmed to match.
+- **XHS**: hook-driven video script, English-primary (matches the creator's existing style there), 3-5 minute target, hashtag block for the post pulling from the research brief's SEO suggestions if available.
+- **YouTube**: full 6-8 minute script — first-class priority, not an afterthought. Leave room for an English-learning segment/callout, since that angle converts best on this platform. **Provide three distinct hook options** (2-4 sentences each, genuinely different angles into the subject, not three phrasings of the same idea) before the full script. Write the full script using whichever hook you judge strongest, and say which one you picked and why — the other two stay in the file as real alternatives the creator can swap in, not discarded drafts.
+- **Bilibili**: adapt/expand from whichever of the XHS or YouTube draft is closest in substance rather than writing a from-scratch bespoke hook/retention structure — this platform is intentionally lower-priority until told otherwise. Given the platform's longer-form culture, it's fine (expected, even) for this to land longer than its 3-5 minute target rather than being trimmed to match.
 
 Every platform's output includes a **title** (packaging — a title is really the written hook, which is this agent's job; thumbnail/visual packaging is a separate, not-yet-built agent).
 
@@ -54,6 +58,21 @@ Write to `scripts/<slug>/<platform>.md` for each requested platform:
 
 ---
 Hashtags: (XHS only)
+```
+
+**YouTube's file additionally includes hook options**, inserted right after the title and before the body:
+
+```markdown
+# <Title>
+
+## Hook options
+1. <Hook A>
+2. <Hook B>
+3. <Hook C>
+
+*Script below uses Hook <X> — <one sentence on why>.*
+
+<body>
 ```
 
 After writing, tell the user which files were created and flag anything you had to ask about or couldn't confirm.
