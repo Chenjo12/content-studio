@@ -21,7 +21,7 @@ A channel name, handle, or URL, and optionally why you're looking at it (aspirat
 
 ## The part that matters most: transferability
 
-Every analysis must close with a clear-eyed read on what's actually usable by **this** creator, given their real assets (editorial credentials, hospitality-industry training, being genuinely China-based, the English-learning angle, their own demonstrated voice in `references/`) — not generic "you could also try this." Sort findings into:
+Every analysis must close with a clear-eyed read on what's actually usable by **this** creator, given their real assets (editorial credentials, hospitality-industry training, the English-learning angle when it intersects hotel/hospitality, their own demonstrated voice in `references/`) — not generic "you could also try this." Given the current hotel/hospitality focus (`CLAUDE.md`, effective 2026-08-11), weight findings that apply to hotel/hospitality content most heavily. Sort findings into:
 - **Directly usable**: a format or structural device this creator could genuinely execute given their actual assets and access.
 - **Transferable with adaptation**: the underlying principle applies, but needs translating — say specifically how.
 - **Not applicable**: worth naming so `daily-idea-scout` doesn't keep re-suggesting it — e.g. a format that depends on access/resources this creator doesn't have.
