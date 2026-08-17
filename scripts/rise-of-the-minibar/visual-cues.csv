@@ -1,0 +1,32 @@
+cue,where,type,what_it_shows,job,priority
+1,"Who would buy a $12 tiny bag of chips?",own,"Slow push-in on a real minibar price list, prices legible","The whole premise in one image — viewer reads the absurdity themselves before you say it",essential
+2,"A $10 can of Coke. A $20 bottle of vodka the size of your thumb.",own,"Three fast cuts: chips, Coke, mini vodka, each held ~0.5s","Rhythm — matches the staccato of the line",essential
+3,"WHO?",graphic,"Hard cut to black, white text: WHO?","The one-word-line-as-paragraph beat needs a visual equivalent, not just a pause",essential
+4,"Sitting in a hotel room. Opening that little fridge.",own,"POV shot, hand opening minibar door in a dim room","Puts the viewer in the scene you're asking them to picture",essential
+5,"really good night, or a really shitty one",stock,"Two contrasting shots — celebration vs. someone face-down on a hotel bed","Lands the joke by literalizing both halves",nice
+6,"I trained in hotel management",own,"Creator to camera, no b-roll","Deliberate absence — the credential lands harder unadorned",essential
+7,"drink the mini vodka, refill the bottle with water",own,"Staged re-enactment: pour out, refill from tap, screw cap, place back, straighten it","The single best visual gag in the script. Worth shooting properly",essential
+8,"84% of them dealing with exactly this",graphic,"Animated stat card, 84% counting up","Makes a spoken number stick",essential
+9,"a 10% buffer baked directly into every item",graphic,"Simple price-breakdown animation: $1 retail → stacked markup layers → $10","Shows a structure that's hard to hold in your head from audio alone",essential
+10,"a stranger, in that same room, six months ago",stock,"Empty hotel room, still, slightly eerie","Tonal shift — the joke gets briefly unsettling, which is the point",nice
+11,"somebody has to physically open that fridge, count it, restock it",archival,"Hotel staff restocking minibars / housekeeping cart footage","Shows invisible labor the viewer never considers",essential
+12,"took eight full-time staff",graphic,"Eight figures appearing one by one","Absurdity is in the count — show the count",essential
+13,"nobody starts their night at the minibar",stock,"Busy hotel bar, early evening, full of people","Establishes the alternative the hotel already lost",nice
+14,"that specific bacchanal desperation",own,"Same minibar as cue 1, now lit late-night, room messy","Visual rhyme with the opening — same object, different hour, whole thesis",essential
+15,"one elevator ride away. Always.",own,"Elevator doors closing, floor numbers descending","Literalizes the thing you're being charged to avoid",essential
+16,"not putting on pants",graphic,"On-screen text only, no footage","The button. Any literal image would over-explain it",essential
+17,"shrinkage (English segment)",graphic,"Word on screen, definition beneath","Standard for the English-learning beat; keeps it skimmable",essential
+18,"Siegas... Madison Hotel, Washington DC, 1963",archival,"Exterior/interior of the Madison Hotel, 1960s; early minibar unit if it exists","Grounds the contested origin story in a real place",essential
+19,"1974, Hong Kong Hilton",archival,"Hong Kong Hilton exterior, 1970s (demolished 1995, so archival is the only option)","Same — and the building no longer exists, which makes the footage inherently interesting",essential
+20,"gets handed one of those 50ml whiskey bottles",stock,"1970s airline cabin service, or a mini bottle on a tray table","Recreates the founding anecdote",nice
+21,"In-room drink sales jump 500%. Total hotel revenue up 5%",graphic,"Two bars climbing, 500% vs 5%","Two numbers in one sentence — audio alone loses one of them",essential
+22,"weight sensors — actual load cells under every shelf",graphic,"Cutaway animation of a minibar shelf, load cell highlighted, item lifting, signal firing","Nobody knows what this looks like. This is the cue that most needs animation",essential
+23,"infrared beams criss-crossing... like a heist movie",graphic,"Animated beam grid inside a minibar cabinet","Do NOT cut in actual heist-film footage — see licensing flags",essential
+24,"charge you for picking something up and putting it back",own,"Hand lifts item, hesitates, replaces it — phone buzzes with a charge notification","The absurdity in one gesture",essential
+25,"moved every bottle into a cabinet... got billed for all of it",graphic,"Itemized bill filling line by line, total climbing","Real story from the research, and bills-filling-up is inherently funny",nice
+26,"pulled out all 1,946 minibars. In one building.",archival,"Marriott Marquis Times Square exterior/atrium","Scale — the number needs a building attached to it",essential
+27,"only 21% even wanted one",graphic,"21% stat card","Consistent with cues 8/12",nice
+28,"Louis XIII cognac... roughly €3,500",stock,"Louis XIII decanter product shot","Brand imagery — see licensing flags",essential
+29,"$400 luxury set, silk scarf included... $25 bottle of water with Swarovski crystals",stock,"Fast cuts of each absurd item","Escalating montage — the pace is the joke",essential
+30,"honesty bars — no sensors, no locks, nobody watching",stock,"An unattended shelf of drinks, warm light, no barrier","Direct visual opposite of cue 22/23's surveillance tech — the contrast is the closing argument",essential
+31,"Knowing you wouldn't put on pants.",own,"Return to the cue 1/14 minibar, now closed, room empty","Closes the visual loop the video opened on",essential

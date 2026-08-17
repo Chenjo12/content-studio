@@ -65,43 +65,49 @@ For each sourced asset record: the cue it serves, a direct URL, the hosting sour
 
 ---
 
-## Output
+## Output: markdown for narrative, CSV for anything tabular
 
-Write to `scripts/<slug>/visuals.md`.
+The creator wants the actual tables usable in Excel — a table trapped in markdown prose isn't. Split output across two file types per phase; don't put a table in the markdown file and don't put prose in the CSV.
 
-**Phase 1** writes everything up to and including the plan:
+**`scripts/<slug>/visuals.md`** — narrative only, no tables:
 
 ```markdown
 # Visual plan — <slug>
 
-*Script: <which platform file>. Register: <comedic / gripping-dramatic>.*
-
-## Cues
-| # | Where (script line) | Type | What it shows | Job | Priority |
-|---|---|---|---|---|---|
+*Script: <which platform file>. Register: <comedic / gripping-dramatic>. Cues: see visual-cues.csv.*
 
 ## Must be created
-(graphics/animation that no search will find)
+(graphics/animation that no search will find — list, with which cue # each belongs to)
 
 ## Must be shot
-(the creator's own footage — shoot-day dependencies)
+(the creator's own footage — shoot-day dependencies, with which cue # each belongs to)
 
 ## Low-confidence cues
-(things you doubt are findable, flagged before anyone spends time looking)
+(things you doubt are findable, flagged before anyone spends time looking, with cue #)
 ```
 
-**Phase 2** appends:
+**`scripts/<slug>/visual-cues.csv`** (Phase 1) — one row per cue, header row exactly:
+
+```
+cue,where,type,what_it_shows,job,priority
+```
+
+`where` and `what_it_shows` will contain commas and quotes — quote every field per standard CSV rules so it opens cleanly in Excel.
+
+**`scripts/<slug>/visual-assets.csv`** (Phase 2 only, new file) — one row per sourced asset, header row exactly:
+
+```
+cue,asset,url,source,license,attribution,notes
+```
+
+Phase 2 also appends two narrative sections to `visuals.md`:
 
 ```markdown
-## Sourced materials
-| Cue # | Asset | URL | Source | License | Attribution | Notes |
-|---|---|---|---|---|---|---|
-
 ## Not found
-(cues that came up empty, with suggested fallbacks)
+(cues that came up empty, with suggested fallbacks, by cue #)
 
 ## Licensing flags
-(anything editorial-only, rights-managed, or unverified — the creator needs to decide on these before using them)
+(anything editorial-only, rights-managed, or unverified — the creator needs to decide on these before using them, by cue #)
 ```
 
-After Phase 1, tell the creator the file path, the cue count, and which cues you're least sure about. After Phase 2, tell them the file path, how many cues got usable assets, and — first, not buried — anything in the licensing flags section.
+After Phase 1, tell the creator both file paths, the cue count, and which cues you're least sure about. After Phase 2, tell them both file paths, how many cues got usable assets, and — first, not buried — anything in the licensing flags section.
