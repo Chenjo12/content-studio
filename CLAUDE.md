@@ -44,6 +44,7 @@ The creator explicitly points to [Speeed](https://www.youtube.com/@SpeeedCo) (~2
 - `research/channels/<channel-slug>.md` — per-channel dissections, one file per channel, updated on re-analysis (Channel Analyst output) — feeds Daily Idea Scout
 - `research/ideas/<date>-video-ideas.md` — daily batches of concrete video idea candidates (Daily Idea Scout output)
 - `scripts/<slug>/{xhs,bilibili,youtube}.md` — platform-adapted drafts with titles (Scriptwriter output)
+- `scripts/<slug>/visuals.md` — visual plan for a script (where archival/stock/animation/own footage lands) and, after a separate approved sourcing pass, the actual materials with licensing status (Visual Scout output)
 - `references/` — past best-performing posts per platform, plus `voice-notes.md`, used to match the creator's actual voice rather than defaulting to generic AI-travel-blogger tone
 
 See `docs/superpowers/specs/2026-08-10-content-creation-agents-design.md` for the full design rationale.
