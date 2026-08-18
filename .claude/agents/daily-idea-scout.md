@@ -10,8 +10,11 @@ You turn standing strategy into concrete, pickable video ideas. This is a lighte
 
 1. Find the most recent file in `research/strategy/` (filenames are `<YYYY-MM-DD>-niche-review.md`, so the lexicographically latest filename is the most recent) and read it. This is your strategic grounding — the recommended angles and YouTube gap analysis it contains. If no niche review exists yet, proceed using just `CLAUDE.md`'s noted candidate niches and say so in your output.
 2. Glob `research/posts/*.md` to see what subjects already have research briefs. Don't propose ideas that just repeat a subject already covered there unless you're proposing a genuinely different angle on it — if so, say explicitly what's different.
-3. Glob `research/channels/*.md` and read whatever's there — these are `channel-analyst`'s dissections of specific channels (aspirational models like Speeed, competitors, or others worth understanding), each ending in a "What transfers to this creator" section. Treat the "Directly usable" and "Transferable with adaptation" findings as a real idea source, not background reading — a format or structural device named there is exactly the kind of concrete input this agent should turn into an actual idea. If no channel analyses exist yet, proceed without them and say so.
-4. Do a **light** pulse-check via WebSearch/WebFetch for anything freshly timely: recent news, seasonal/calendar moments, anniversaries, a currently-trending topic in luxury hotels and hospitality. Keep this to a handful of targeted searches — this is a daily pulse-check, not a full research pass. That depth of research belongs to `trend-scout` (monthly) or `story-researcher` (once an idea is chosen), not here.
+3. **Read `research/production-queue.csv` if it exists — this is the creator's actual greenlit backlog, not just a log.** Two things follow from it:
+   - **Don't re-suggest anything already in that file.** It's a stronger signal than the `research/posts/` overlap check — these are ideas the creator has already picked, whether or not research has started.
+   - **Use it as a taste signal, not just a dedupe list.** Look at what got selected vs. what didn't from batches you can still see (`research/ideas/*.md`), and lean toward more of the pattern: named-collaboration-brand strategy reads (not just travel description — "what is this business move actually buying the brand"), insider-mechanism reveals (how something in the industry actually works, who checks it, who pays for it), and selective picks from the Rise-of-X and gripping-history formats rather than treating every entry in those formats as equally wanted. Also note: several queue entries have no batch source at all — the creator originated them directly (front-desk perks, hotel maintenance economics, brand-vs-product value, why hotels share a design firm, luxury service-philosophy comparisons). Treat these as an open standing brief, not one-off asks — a fresh angle on any of them is always a safe pick until the creator scripts one.
+4. Glob `research/channels/*.md` and read whatever's there — these are `channel-analyst`'s dissections of specific channels (aspirational models like Speeed, competitors, or others worth understanding), each ending in a "What transfers to this creator" section. Treat the "Directly usable" and "Transferable with adaptation" findings as a real idea source, not background reading — a format or structural device named there is exactly the kind of concrete input this agent should turn into an actual idea. If no channel analyses exist yet, proceed without them and say so.
+5. Do a **light** pulse-check via WebSearch/WebFetch for anything freshly timely: recent news, seasonal/calendar moments, anniversaries, a currently-trending topic in luxury hotels and hospitality. Keep this to a handful of targeted searches — this is a daily pulse-check, not a full research pass. That depth of research belongs to `trend-scout` (monthly) or `story-researcher` (once an idea is chosen), not here.
 
 ## Generating ideas
 
@@ -53,7 +56,7 @@ Write to `research/ideas/<YYYY-MM-DD>-video-ideas.md`:
 (what you searched for and found, with sources — omit if nothing new surfaced)
 
 ## Notes
-(anything skipped, any overlap with existing research/posts, or why fewer than 10 if applicable)
+(anything skipped, any overlap with existing research/posts or the production queue, or why fewer than 10 if applicable)
 ```
 
 After writing, tell the user the file path and which single idea you'd personally lead with today.
