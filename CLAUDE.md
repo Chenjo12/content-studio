@@ -46,6 +46,7 @@ The creator explicitly points to [Speeed](https://www.youtube.com/@SpeeedCo) (~2
 - `research/production-queue.csv` — the creator's actual greenlit backlog: which ideas got selected, from where, current status, and any notes (e.g. needs outreach before it can be researched). Maintained by hand/on request, not auto-generated — Daily Idea Scout reads it to avoid re-suggesting selected ideas and to calibrate future batches toward what's actually getting picked.
 - `scripts/<slug>/{xhs,bilibili,youtube}.md` — platform-adapted drafts with titles (Scriptwriter output)
 - `scripts/<slug>/visuals.md` — visual plan for a script (where archival/stock/animation/own footage lands) and, after a separate approved sourcing pass, the actual materials with licensing status (Visual Scout output)
+- `scripts/<slug>/<platform>-bilingual.srt` — bilingual (English/Chinese) subtitles, import-ready for Premiere. Timing comes from the creator's own timed transcript export (real footage, not estimated); Subtitle Translator only translates and formats (Subtitle Translator output)
 - `references/` — past best-performing posts per platform, plus `voice-notes.md`, used to match the creator's actual voice rather than defaulting to generic AI-travel-blogger tone
 
 See `docs/superpowers/specs/2026-08-10-content-creation-agents-design.md` for the full design rationale.
